@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,5 +44,13 @@
   <property>
     <name>hadoop.proxyuser.httpfs.groups</name>
     <value>*</value>
+  </property>
+  <property>
+    <name>ha.zookeeper.parent-znode</name>
+    <value>/dcos-service-hdfs/hadoop-ha</value>
+  </property>
+  <property>
+    <name>ipc.client.connect.max.retries</name>
+    <value>300</value>
   </property>
 </configuration>

@@ -7,12 +7,9 @@
   "assets": {
     "container": {
       "docker": {
-        "zeppelin": "mesosphere/zeppelin:0.6.2",
-        "spark": "mesosphere/spark:1.0.2-2.0.0"
+        "zeppelin": "cdpqleo/dcos-zeppelin",
+        "spark": "mesosphere/spark:2.1.0-2.2.0-1-hadoop-2.6"
       }
-    },
-    "uris": {
-      "spark": "https://downloads.mesosphere.io/spark/assets/spark-2.0.0.tgz"
     }
   }
 }

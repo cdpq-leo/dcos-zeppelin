@@ -1,9 +1,9 @@
 {
-    "packagingVersion": "2.0",
+    "packagingVersion": "3.0",
     "name": "zeppelin",
-    "version": "0.6.2",
+    "version": "0.7.3",
     "scm": "https://github.com/apache/incubator-zeppelin",
-    "maintainer": "support@mesosphere.io",
+    "maintainer": "https://dcos.io/community/",
     "description": "Zeppelin is a web-based notebook that enables interactive data analytics",
     "framework": true,
     "tags": [
@@ -11,9 +11,11 @@
         "framework",
         "bigdata",
         "spark",
+        "flink",
         "notebook",
         "interactive"
     ],
-    "website": "https://docs.mesosphere.com/zeppelin/",
-    "postInstallNotes": "DC/OS Zeppelin is being installed!\n\n\tDocumentation: https://docs.mesosphere.com/zeppelin/\n\tIssues: https://docs.mesosphere.com/support/"
+    "website": "https://github.com/mesosphere/dcos-zeppelin",
+    "preInstallNotes": "This DC/OS Service is currently in preview. There may be bugs, incomplete features, incorrect documentation, or other discrepancies. Preview packages should never be used in production!",
+    "postInstallNotes": "DC/OS Zeppelin is being installed!\n\n\tDocumentation: https://github.com/dcos/examples/tree/master/1.8/zeppelin/\n\tIssues: https://dcos.io/community/"
 }
